@@ -9,4 +9,4 @@
 ![Contributors](https://img.shields.io/github/contributors/2kabhishek/Wipro-PJP?style=plastic&color=ff69b4&label=Contributors)
 ![Followers](https://img.shields.io/github/followers/2kabhishek?style=plastic&color=blue&label=Followers)
 
-Code written during Wipro Pre Joining Programme.
+Code written during Wipro Pre Joining Program.
