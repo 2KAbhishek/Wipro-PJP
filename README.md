@@ -10,6 +10,7 @@
 ![Followers](https://img.shields.io/github/followers/2kabhishek?style=plastic&color=blue&label=Followers)
 
 Code written during Wipro Pre Joining Program.
-Contains Topic wise assignments, Mini-Projects and Mettl Logic Building problems part of the Java stream.
-Shared for my own future reference and if anyone needs help with a certain problem.
 
+Contains topic wise assignments, projects and Mettl logic building problems part of the Java stream.
+
+Shared for my own future reference and if anyone needs help with a certain problem.
