@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Forms 2</title>
+    </head>
+    <body align="center">
+        <h3>Register Here</h3>
+        <form>
+            <label>Username <input type="text" name="uname" required autofocus /></label><br />
+            <label>Password <input type="password" name="pwd" required /></label><br />
+            <label>Confirm <input type="password" name="pwd2" required /></label><br />
+            <label>Name <input type="text" name="name" /></label><br />
+            <label>Gender</label><br />
+            <label>Male <input type="radio" name="gender" value="M" /></label>
+            <label>Female <input type="radio" name="gender" value="F" /></label>
+            <label>Other <input type="radio" name="gender" value="O" /></label><br />
+            <label>Address<br /><textarea name="address"></textarea></label><br />
+            <label
+                >Profession
+                <select name="profession">
+                    <option value="maker">Maker</option>
+                    <option value="learner">Learner</option>
+                    <option value="explorer">Explorer</option>
+                </select>
+            </label>
+            <input type="submit" />
+        </form>
+    </body>
+</html>
