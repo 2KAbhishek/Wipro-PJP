@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Div Forms</title>
+    </head>
+    <body align="center">
+        <div>
+            <table align="center">
+                <tr>
+                    <th>Visitors Information</th>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td>
+                        <br />
+                        <form>
+                            <label for="email">Email Address : </label>
+                            <input type="email" name="email" id="email" /><br />
+                            <label>User's Interest :</label><br />
+                            <label>Research<input type="checkbox" name="interest" value="research" /></label>
+                            <label>Purchase <input type="checkbox" name="interest" value="purchase" /></label><br />
+                            <label for="occupation"> Occupation : </label>
+                            <select name="occupation" value="select-one" id="occupation">
+                                <option>Select One</option> </select
+                            ><br />
+                            <label>Want us to send you junk mails?</label> <br />
+                            <label>Absolutely<input type="radio" name="send-mail" value="yes" /></label>
+                            <label>No Way Man<input type="radio" name="send-mail" value="no" /></label>
+                            <hr />
+                            <input type="submit" value="Submit" />
+                            <input type="reset" value="Reset" />
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br />
+        <div>
+            <h4>Register Here!</h4>
+            <form>
+                <label>Username <input type="text" name="uname" required autofocus /></label><br />
+                <label>Password <input type="password" name="pwd" required /></label><br />
+                <label>Confirm <input type="password" name="pwd2" required /></label><br />
+                <label>Name <input type="text" name="name" /></label><br />
+                <label>Gender</label><br />
+                <label>Male <input type="radio" name="gender" value="M" /></label>
+                <label>Female <input type="radio" name="gender" value="F" /></label>
+                <label>Other <input type="radio" name="gender" value="O" /></label><br />
+                <label>Address<br /><textarea name="address"></textarea></label><br />
+                <label
+                    >Profession
+                    <select name="profession">
+                        <option value="maker">Maker</option>
+                        <option value="learner">Learner</option>
+                        <option value="explorer">Explorer</option>
+                    </select>
+                </label>
+                <input type="submit" />
+            </form>
+        </div>
+    </body>
+</html>
