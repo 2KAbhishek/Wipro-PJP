@@ -1,0 +1,10 @@
+ol {
+    list-style-type: lower-greek;
+    text-align: left;
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+}
