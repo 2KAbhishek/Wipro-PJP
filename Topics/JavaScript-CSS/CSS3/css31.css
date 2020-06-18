@@ -1,0 +1,6 @@
+div {
+    border: 2px solid;
+    padding: 20px;
+    background: #dddddd;
+    border-top-left-radius: 2em;
+}
