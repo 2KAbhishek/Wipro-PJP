@@ -1,5 +1,5 @@
 <div align="center">
-  
+
 # Wipro-PJP
 
 ![Size](https://img.shields.io/github/repo-size/2kabhishek/Wipro-PJP?style=plastic&color=0f0&label=Size)
@@ -18,4 +18,4 @@ Contains topic wise assignments, projects and Mettl logic building problems part
 
 Shared for my own future reference and if anyone needs help with a certain problem.
 
-Hit the 🌟 button if this repo is useful to you.
+Please consider hitting the 🌟 button if this repo was useful to you, any contributions and suggestions are welcome.
