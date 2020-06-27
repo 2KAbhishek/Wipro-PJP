@@ -1,3 +1,5 @@
+<div align="center">
+  
 # Wipro-PJP
 
 ![Size](https://img.shields.io/github/repo-size/2kabhishek/Wipro-PJP?style=plastic&color=green&label=Size)
@@ -9,8 +11,12 @@
 ![Contributors](https://img.shields.io/github/contributors/2kabhishek/Wipro-PJP?style=plastic&color=ff69b4&label=Contributors)
 ![Followers](https://img.shields.io/github/followers/2kabhishek?style=plastic&color=blue&label=Followers)
 
+</div>
+
 Code written during Wipro Pre Joining Program.
 
 Contains topic wise assignments, projects and Mettl logic building problems part of the Java stream.
 
 Shared for my own future reference and if anyone needs help with a certain problem.
+
+Hit the 🌟 button if this repo is useful to you.
