@@ -2,14 +2,13 @@
   
 # Wipro-PJP
 
-![Size](https://img.shields.io/github/repo-size/2kabhishek/Wipro-PJP?style=plastic&color=green&label=Size)
-![Updated](https://img.shields.io/github/last-commit/2kabhishek/Wipro-PJP?style=plastic&color=red&label=Updated)
-![License](https://img.shields.io/github/license/2kabhishek/Wipro-PJP?style=plastic&color=lightgrey&label=License)
-![Stars](https://img.shields.io/github/stars/2kabhishek/Wipro-PJP?style=plastic&color=ffd500&label=Stars)
-![Forks](https://img.shields.io/github/forks/2kabhishek/Wipro-PJP?style=plastic&color=brightgreen&label=Forks)
+![Size](https://img.shields.io/github/repo-size/2kabhishek/Wipro-PJP?style=plastic&color=0f0&label=Size)
+![Updated](https://img.shields.io/github/last-commit/2kabhishek/Wipro-PJP?style=plastic&color=f00&label=Updated)
+![Stars](https://img.shields.io/github/stars/2kabhishek/Wipro-PJP?style=plastic&color=yellow&label=Stars)
+![Forks](https://img.shields.io/github/forks/2kabhishek/Wipro-PJP?style=plastic&color=0a68ff&label=Forks)
 ![Watchers](https://img.shields.io/github/watchers/2kabhishek/Wipro-PJP?style=plastic&color=orange&label=Watchers)
-![Contributors](https://img.shields.io/github/contributors/2kabhishek/Wipro-PJP?style=plastic&color=ff69b4&label=Contributors)
-![Followers](https://img.shields.io/github/followers/2kabhishek?style=plastic&color=blue&label=Followers)
+![Contributors](https://img.shields.io/github/contributors/2kabhishek/Wipro-PJP?style=plastic&color=f0f&label=Contributors)
+![License](https://img.shields.io/github/license/2kabhishek/Wipro-PJP?style=plastic&color=000&label=License)
 
 </div>
 
