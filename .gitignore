@@ -6,3 +6,7 @@
 
 # VS Code
 .vscode/
+
+# Eclipse
+*/build/
+
