@@ -1,4 +1,3 @@
-// TIME OUT FUNCTION
 var myVar;
 function myTimeout() {
     myVar = setTimeout(alertFunc, 180000);
@@ -6,8 +5,8 @@ function myTimeout() {
 function alertFunc() {
     alert("3 mins passed! Timeout");
 }
-function pageValidation() {
-    //DECLARATION
+
+function validate() {
     var mobile = document.forms["myform"]["mobile"].value;
     var dob = document.forms["myform"]["dob"].value;
     var firstname = document.forms["myform"]["fname"].value;
@@ -21,19 +20,19 @@ function pageValidation() {
     var eregex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     var dobPattern = /^([0-9]{2})-([0-9]{2})-([0-9]{4})$/;
 
-    //FIRST NAME VALIDATION
+    // First name
     if (!letters.test(firstname)) {
         document.getElementById("error-lname").innerHTML = "* First name can't contain number or special characters";
         return false;
     }
 
-    // LAST NAME VALIDATION
+    // Last name
     if (!letters.test(lastname)) {
         document.getElementById("error-lname").innerHTML = "* Last name can't contain number or special characters";
         return false;
     }
 
-    // PASSWORD VALIDATION
+    // Password
     if (password1.length > 5 && password1.length < 20) {
         if (password1 !== password2) {
             document.getElementById("error-pass1").innerHTML = "* Passwords did't match";
@@ -44,19 +43,19 @@ function pageValidation() {
         return false;
     }
 
-    // PHONE NUMBER VALIDATION
+    // Phone Number
     if (!phoneno.test(mobile)) {
         document.getElementById("error-mob").innerHTML = "* Follow XXX XXX XXXX or XXX-XXX-XXXX or XXX.XXX.XXXX format";
         return false;
     }
 
-    //DOB VALIDATION
+    // DOB
     if (!dobPattern.test(dob)) {
         document.getElementById("error-dob").innerHTML = "* Invalid DOB";
         return false;
     }
 
-    // EMAIL VALIDATION
+    // Email
     if (!eregex.test(email)) {
         document.getElementById("error-email").innerHTML = "* Enter a valid email address";
         return false;
