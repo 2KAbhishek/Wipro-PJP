@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ISO-8859-1" />
+        <title>Online Auction</title>
+        <style type="text/css">
+            body {
+                text-align: center;
+                margin: 20px;
+            }
+            form {
+                display: inline-block;
+                padding: 25px;
+            }
+        </style>
+        <script>
+            function validateForm() {
+                var itmId = document.forms["myForm"]["itm_id"].value;
+                var itmName = document.forms["myForm"]["itm_name"].value;
+                var uname = document.forms["myForm"]["uname"].value;
+                var email = document.forms["myForm"]["email"].value;
+                var bid = document.forms["myForm"]["ubid"].value;
+
+                if (itmId.length < 1) {
+                    document.getElementById("error-id").innerHTML = " Required Field!";
+                }
+                if (itmName.length < 1) {
+                    document.getElementById("error-name").innerHTML = " Required Field!";
+                }
+                if (uname.length < 1) {
+                    document.getElementById("error-uname").innerHTML = " Required Field!";
+                }
+                if (email.length < 1) {
+                    document.getElementById("error-email").innerHTML = " Required Field!";
+                }
+                if (bid.length < 1) {
+                    document.getElementById("error-bid").innerHTML = " Required Field!";
+                }
+
+                if (itmName.length < 1 || email.length < 1 || bid.length < 1 || itmId.length < 1 || uname.length < 1) {
+                    document.getElementById("error-head").innerHTML = " Required Data Missing!";
+                    document.getElementById("error-head1").innerHTML = "Enter and Resubmit.";
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div style="margin: 20px; background-color: #faebd7; width: 750px;">
+            <form name="myForm" action="AuctionServlet" method="get" onsubmit="return validateForm()">
+                <div>
+                    <h1>Welcome to AP Auctions. Please Enter Bid.</h1>
+                    <h2><span id="error-head" style="color: red;"></span> <span id="error-head1"></span></h2>
+                    <br />
+                </div>
+
+                <div>
+                    <span id="error-id" style="color: red;"></span>
+                    <label>Item Id:</label>
+                    <input type="number" name="itm_id" /><br />
+                </div>
+
+                <div>
+                    <span id="error-name" style="color: red;"></span>
+                    <label>Item Name:</label>
+                    <input type="text" name="itm_name" /><br />
+                </div>
+
+                <div>
+                    <span id="error-uname" style="color: red;"></span>
+                    <label>Your Name:</label>
+                    <input type="text" name="uname" /><br />
+                </div>
+
+                <div>
+                    <span id="error-email" style="color: red;"></span>
+                    <label>Your Email Address:</label>
+                    <input type="email" name="email" /><br />
+                </div>
+
+                <div>
+                    <span id="error-bid" style="color: red;"></span>
+                    <label>Amount Bid: </label>
+                    <input type="text" name="ubid" /><br />
+                </div>
+                <div>
+                    <label>Auto increment bid to match another bidders?:</label>
+                    <input type="checkbox" name="checkbid" value="true" /><br /><br />
+                </div>
+
+                <div>
+                    <input type="submit" value="Submit Bid" />
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
