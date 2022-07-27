@@ -1,6 +1,6 @@
 <div align = "center">
 
-<h1><a href="https://2kabhishek.github.io/Wipro-PJP">BareMinimum</a></h1>
+<h1><a href="https://2kabhishek.github.io/Wipro-PJP">Wipro-PJP</a></h1>
 
 <a href="https://github.com/2KAbhishek/Wipro-PJP/blob/main/LICENSE">
 <img alt="License" src="https://img.shields.io/github/license/2kabhishek/Wipro-PJP?style=flat&color=eee&label="> </a>
