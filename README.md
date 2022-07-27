@@ -1,12 +1,26 @@
-# Wipro-PJP
+<div align = "center">
 
-![Size](https://img.shields.io/github/repo-size/2kabhishek/Wipro-PJP?style=plastic&color=0f0&label=Size)
-![Updated](https://img.shields.io/github/last-commit/2kabhishek/Wipro-PJP?style=plastic&color=f00&label=Updated)
-![Stars](https://img.shields.io/github/stars/2kabhishek/Wipro-PJP?style=plastic&color=ffc801&label=Stars)
-![Forks](https://img.shields.io/github/forks/2kabhishek/Wipro-PJP?style=plastic&color=003cff&label=Forks)
-![Watchers](https://img.shields.io/github/watchers/2kabhishek/Wipro-PJP?style=plastic&color=ff5500&label=Watchers)
-![Contributors](https://img.shields.io/github/contributors/2kabhishek/Wipro-PJP?style=plastic&color=f0f&label=Contributors)
-![License](https://img.shields.io/github/license/2kabhishek/Wipro-PJP?style=plastic&color=555&label=License)
+<h1><a href="https://2kabhishek.github.io/Wipro-PJP">BareMinimum</a></h1>
+
+<a href="https://github.com/2KAbhishek/Wipro-PJP/blob/main/LICENSE">
+<img alt="License" src="https://img.shields.io/github/license/2kabhishek/Wipro-PJP?style=flat&color=eee&label="> </a>
+
+<a href="https://github.com/2KAbhishek/Wipro-PJP/graphs/contributors">
+<img alt="People" src="https://img.shields.io/github/contributors/2kabhishek/Wipro-PJP?style=flat&color=ffaaf2&label=People"> </a>
+
+<a href="https://github.com/2KAbhishek/Wipro-PJP/stargazers">
+<img alt="Stars" src="https://img.shields.io/github/stars/2kabhishek/Wipro-PJP?style=flat&color=98c379&label=Stars"></a>
+
+<a href="https://github.com/2KAbhishek/Wipro-PJP/network/members">
+<img alt="Forks" src="https://img.shields.io/github/forks/2kabhishek/Wipro-PJP?style=flat&color=66a8e0&label=Forks"> </a>
+
+<a href="https://github.com/2KAbhishek/Wipro-PJP/watchers">
+<img alt="Watches" src="https://img.shields.io/github/watchers/2kabhishek/Wipro-PJP?style=flat&color=f5d08b&label=Watches"> </a>
+
+<a href="https://github.com/2KAbhishek/Wipro-PJP/pulse">
+<img alt="Last Updated" src="https://img.shields.io/github/last-commit/2kabhishek/Wipro-PJP?style=flat&color=e06c75&label="> </a>
+
+</div>
 
 Code written during Wipro Pre Joining Program.
 
